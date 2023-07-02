@@ -1,11 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>3MINE</title>
+  <title>Animovaný obrázek</title>
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="icon" type="image/png" href="ikona.png">
 </head>
 <body>
+
+  <nav class="navigace">
+    <div class="nazev-stranky">Svět Her</div>
+    <a href="#" class="odkazove-tlacitko">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </a>
+    <div class="navigace-link">
+        <ul>
+            <li><a href="index.html">Domů</a></li>
+            <li><a href="#">Hry</a></li>
+            <li><a href="recenze/nejlepsi-hry-2023.html">Recenze</a></li>
+        </ul>
+    </div>
+</nav>
     
     <div class="main-container">
         <div class="content-container">
@@ -15,27 +31,36 @@
   </div>
 
   <div class="decorative-line"></div>
+  <div class="items">
+    <a href="#" class="item forums">
+    <div>
+      <img src="ateam.png" alt="Minecraft forums icon" class="img">
+      <p class="subtitle">Info</p>
+      <p class="title">TEAM</p>
+    </div>
+    </a>
 
-  <div class="button" id="button1">
-    <a href="odkaz1.html"></a>
-    <img src="ateam.png" alt="Obrázek 1">
-    <p class="subtitle">Kdo se stará o server?</p>
-    <p class="title">A - TEAM</p>
-</div>
-  
-  <div class="button" id="button2">
-    <a href="odkaz2.html"></a>
-    <img src="hlasovani.png" alt="Obrázek 2">
-    <p class="subtitle">Hlasuj a získej výhody!</p>
-    <p class="title">VOTE</p>
-</div>
-  
-  <div class="button" id="button3">
-    <a href="odkaz3.html"></a>
-    <img src="vip.png" alt="Obrázek 3">
-    <p class="subtitle">Pořiď si výhody!</p>
-    <p class="title">SHOP</p>
+    <a href="#" class="item store">
+    <div>
+      <img src="hlasovani.png" alt="Minecraft store icon" class="img">
+      <p class="subtitle">Odměny</p>
+      <p class="title">VOTE</p>
+    </div>
+    </a>
+
+    <a href="#" class="item vote">
+    <div>
+      <img src="vip.png" alt="Minecraft voting icon" class="img">
+      <p class="subtitle">Členství</p>
+      <p class="title">SHOP</p>
+    </div>
+    </a>
+
   </div>
+
+  <footer>
+    <p>Mé zápatí</p>
+  </footer>
 
   <script src="script.js"></script>
 </body>
